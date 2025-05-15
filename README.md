@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+Productivity Dashboard - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React-based Productivity Dashboard containing a set of interactive tools:
 
-## Available Scripts
+✅ Features Implemented
 
-In the project directory, you can run:
+1. Counter Component
 
-### `npm start`
+Learned how to use useState to manage component state.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Implemented buttons to increment, decrement, and reset a number.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Applied basic inline CSS styling to structure and design the component.
 
-### `npm test`
+2. TodoList Component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Managed a dynamic list using useState.
 
-### `npm run build`
+Handled form submissions to add new todos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Implemented delete functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Learned conditional rendering and basic input handling.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. ColorPicker Component
 
-### `npm run eject`
+Used a color input to dynamically change the background color of a display box.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Practiced controlled components in React.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📄 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+src/
+├── components/
+│   ├── ColorPicker.js
+│   ├── Counter.js
+│   ├── Notes.js (to be implemented)
+│   └── TodoList.js
+├── pages/
+│   ├── Dashboard.js
+│   └── Settings.js
+├── App.js
+└── index.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧠 Skills Practiced
 
-## Learn More
+React component creation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+State management with useState
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Conditional rendering
 
-### Code Splitting
+Event handling (onClick, onChange, onSubmit)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Routing using react-router-dom
